@@ -81,7 +81,7 @@ const Spotlight = () => {
               opacity: h3Opacity,
               filter: `blur(${h3BlurValue.get()}px)`,
             }}
-            className="text-[70px] text-[#FFE9D9] w-[65%] mx-auto text-center "
+            className="  text-[30px] sm:text-[50px] lg:text-[80px] text-[#FFE9D9] w-[80%] lg:w-[65%] mx-auto text-center "
           >
             The first media company crafted for the digital-first generation
           </motion.h3>
@@ -106,7 +106,7 @@ const Spotlight = () => {
 
         {showCubeGrid && (
           <motion.div
-            className="sticky top-20"
+            className="sticky top-20  w-full"
             initial={{ opacity: 1 }}
             animate={{ opacity: fadeOutCubes ? 0 : 1 }}
             transition={{ duration: 1 }}
